@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/homekit-code-generator/static/css/main.46a445d8.css",
+    "main.js": "/homekit-code-generator/static/js/main.40e720bc.js",
+    "static/js/453.5773f88f.chunk.js": "/homekit-code-generator/static/js/453.5773f88f.chunk.js",
+    "index.html": "/homekit-code-generator/index.html",
+    "main.46a445d8.css.map": "/homekit-code-generator/static/css/main.46a445d8.css.map",
+    "main.40e720bc.js.map": "/homekit-code-generator/static/js/main.40e720bc.js.map",
+    "453.5773f88f.chunk.js.map": "/homekit-code-generator/static/js/453.5773f88f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46a445d8.css",
+    "static/js/main.40e720bc.js"
+  ]
+}
