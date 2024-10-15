@@ -13,7 +13,7 @@ const generateImage = (category: string, pairingCode: string, connectionMode: st
     password: pairingCode,
     setupId: "",
   })
-  if (type == 1)
+  if (type === 1)
     return composeQrCode({ pairingCode: pairingCode, setupUri })
   else
     return Promise.resolve(composeTag(pairingCode))
@@ -87,7 +87,7 @@ function App() {
         <Button onClick={onGenerateClick}>Generate</Button>
 
 
-        {svg && <img style={{ height: "50vh" }} src={`data:image/svg+xml;utf8,${encodeURIComponent(svg)}`} />}
+        {svg && <img style={{ height: "50vh" }} alt="" src={`data:image/svg+xml;utf8,${encodeURIComponent(svg)}`} />}
       </Stack>
 
 

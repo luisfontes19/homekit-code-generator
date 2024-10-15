@@ -2,6 +2,7 @@
   "name": "homekit-code-generator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://luisfontes19.github.io/homekit-code-generator",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
