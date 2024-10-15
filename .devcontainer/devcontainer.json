@@ -1,0 +1,46 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-docker-compose
+{
+	"name": "homekit-code-generator",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "homekit-code-generator",
+	"workspaceFolder": "/app",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.suggestSelection": "first",
+				"editor.tabSize": 2,
+				"editor.formatOnPaste": true,
+				"editor.formatOnSave": true,
+				"editor.inlineSuggest.enabled": true,
+				"editor.codeActionsOnSave": {
+					"source.organizeImports": true
+				},
+				"editor.multiCursorModifier": "ctrlCmd",
+				"editor.unicodeHighlight.invisibleCharacters": false,
+				"editor.unicodeHighlight.ambiguousCharacters": false,
+				"javascript.updateImportsOnFileMove.enabled": "always",
+				"typescript.updateImportsOnFileMove.enabled": "always",
+				"typescript.validate.enable": true,
+				"typescript.format.semicolons": "remove",
+				"typescript.preferences.quoteStyle": "single",
+				"typescript.suggest.paths": false,
+				"[typescriptreact]": {
+					"editor.codeActionsOnSave": {
+						"source.fixAll.eslint": true,
+					}
+				},
+				"css.completion.completePropertyWithSemicolon": false,
+				"scss.completion.completePropertyWithSemicolon": false,
+			},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"dbaeumer.vscode-eslint",
+				"luisfontes19.vscode-swissknife",
+				"github.copilot"
+			]
+		}
+	},
+}
